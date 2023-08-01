@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imtiaz Mega Mart</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .header {
+            background-color: lightsalmon;
+            margin-top: 0px;
+        }
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 60px;
+            top: 20px;
+        }
+
+        .left div {
+            line-height: 19px;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        #pic {
+            width: 60px;
+            height: 60px;
+        }
+
+        .mid {
+            display: block;
+            width: 60%;
+            margin: 29px auto;
+            /* border: 2px solid green; */
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 43px;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            color: lightcoral;
+            text-decoration: none;
+            padding: 34px 23px;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai', cursive;
+            margin: 0px 9px;
+            background-color: lightcoral;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(31, 30, 30);
+        }
+        #imtyaz{
+            width: 100%;
+            height: 500px;
+        }
+        .container{
+            width: 100%;
+            height: 900px;
+            border: 2px solid blue;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-content: space-between;
+            background-color: rgb(85, 81, 51);
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            margin: 10px;
+        }
+        #jan{
+            width: 200px;
+            height: 200px;
+        }
+        .container1{
+            width: 100%;
+            height: 750px;
+            border: 2px solid black;
+            margin-top: 10px;
+            border-radius: 10px;
+            background-color: rgb(83, 76, 76);
+
+        }
+        .container1 h1{
+            margin-left: 45% ;
+        }
+        .container3{
+            width: 100%;
+            height: 650px;
+            border: 5px solid black;
+            margin-top: 10px;
+            border-radius: 10px;
+            background-color: rgb(87, 77, 77);
+        }
+        .container3 h1{
+            margin-left: 45%;
+        }
+
+    </style>
+
+    </head>
+<body>
+     <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="images.jpg" alt="" id="pic">
+
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn btn-primary" disabled>
+                <span class="spinner-grow spinner-grow-sm"></span>
+                Loading..
+            </button>
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="imtyaz">
+        <img src="cover%20image%201.jpg" alt="" id="imtyaz">
+    </div>
+    <div class="container">
+        <div class="box" id="khan-1"><img src="img1.jpg" alt="" id="jan"></div>
+        <div class="box" id="khan-2"><img src="img2.jpg" alt="" id="jan"></div>
+        <div class="box" id="khan-3"><img src="img3.jpg" alt="" id="jan"></div>
+        <div class="box" id="khan-4"><img src="img4.jpg" alt="" id="jan"></div>
+        <div class="box" id="khan-5"><img src="img5.jpg" alt="" id="jan"></div>
+        <div class="box" id="khan-6"><img src="img6.jpg" alt="" id="jan"></div>
+        <div class="box" id="khan-7"><img src="img7.jpg" alt="" id="jan"></div>
+        <div class="box" id="khan-8"><img src="img8.jpg" alt="" id="jan"></div>
+        <div class="box" id="khan-9"><img src="img9.jpg" alt="" id="jan"></div>
+        <div class="box" id="khan-1"><img src="img10.jpg" alt="" id="jan"></div>
+        <div class="box" id="khan-2"><img src="img11.jpg" alt="" id="jan"></div>
+        <div class="box" id="khan-3"><img src="img12.jpg" alt="" id="jan"></div>
+        <div class="box" id="khan-4"><img src="img13.jpg" alt="" id="jan"></div>
+        <div class="box" id="khan-5"><img src="img14.jpg" alt="" id="jan"></div>
+        <div class="box" id="khan-6"><img src="img15.jpg" alt="" id="jan"></div>
+        <div class="box" id="khan-7"><img src="img16.jpg" alt="" id="jan"></div>
+    </div>
+
+    <div class="container1">
+        <h1>Electronics</h1>
+        <img src="cover%20image%202.jpg" alt="" width="100%" height="600px">
+    </div>
+
+    <div class="container3">
+        <h1>Earn points</h1>
+        <div class="img"> <img src="bg3.jpg" alt="" width="100%" height="550px" ></div>
+    </div>
+    
+</body>
+</html>
